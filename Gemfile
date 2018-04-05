@@ -7,9 +7,15 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+<<<<<<< HEAD
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'pg', '~> 1.0'
+=======
+gem 'rails', '~> 5.1.4'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+>>>>>>> aa8b0476af5e9f6790880a5e7bea0cfcd5917537
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -26,7 +32,11 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
+<<<<<<< HEAD
 # gem 'redis', '~> 4.0'
+=======
+# gem 'redis', '~> 3.0'
+>>>>>>> aa8b0476af5e9f6790880a5e7bea0cfcd5917537
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
